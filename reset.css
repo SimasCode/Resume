@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: var(--gray-lightest);
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--gray-darkest);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  margin: 24px auto;
+}

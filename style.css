@@ -1,0 +1,253 @@
+/* COMMON - START */
+:root {
+  --gray-darkest: #232339;
+  --gray-darker: #2e2e48;
+  --gray-lightest: #e2e6ee;
+  --gray-light: #acb1c3;
+  --Primary-light: #c696fc;
+}
+
+.text14 {
+  font-size: 14px;
+  color: var(--gray-light);
+}
+
+.text16 {
+  font-size: 16px;
+  color: var(--gray-lightest);
+}
+
+.text14:hover {
+  color: var(--primary-light, #c696fc);
+}
+
+.text20 {
+  font-size: 20px;
+  color: var(--gray-lightest);
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+
+  margin-right: 50px;
+}
+
+.one-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.bgc {
+  background-color: var(--gray-darker);
+  padding: 10px;
+  border-radius: 5px;
+}
+/* COMMON - END */
+
+/* LINE - START */
+
+.list-wrapper {
+  position: relative;
+}
+
+.list-item-wrapper {
+  margin-top: 10px;
+  position: relative;
+}
+
+.list-bullet {
+  float: left;
+  margin-right: 50px;
+  background: var(--gray-darker);
+  width: 30px;
+  line-height: 30px;
+  border-radius: 100px;
+  font-weight: 700;
+  color: var(--Primary-light);
+  text-align: center;
+}
+
+.list-item {
+  display: table-row;
+  vertical-align: middle;
+}
+
+.list-title {
+  font-weight: 700;
+}
+
+.list-text {
+  font-weight: 400;
+}
+
+.red-line {
+  background: var(--gray-darker);
+  z-index: -1;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 15px;
+}
+
+.white-line {
+  background: #fff;
+  z-index: -1;
+  top: 0px;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 15px;
+}
+/* LINE - END */
+
+.aside-container {
+  margin-right: 40px;
+}
+
+/* ASIDE - HEADER - STAR */
+.header-container {
+  border-bottom: 1px solid var(--gray-darker);
+  margin-bottom: 20px;
+}
+
+.header-profession {
+  margin-bottom: 20px;
+  font-weight: 600;
+  background: var(
+    --gradient-primary,
+    linear-gradient(90deg, #a478e8 0%, #516cf7 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ASIDE - HEADER - END */
+
+/* ASIDE - CONTACTS - STAR */
+.contacts-container {
+  border-bottom: 1px solid var(--gray-darker);
+  margin-bottom: 20px;
+}
+
+.contacts-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-darker);
+  background-color: var(--gray-light);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+/* ASIDE - CONTACTS - END */
+
+/* ASIDE - SOCIALS - START */
+.socials-container {
+  border-bottom: 1px solid var(--gray-darker);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.socials-link:hover {
+  color: var(--gray-lightest);
+}
+
+/* ASIDE - SOCIALS - END */
+
+/* ASIDE - LANGUAGE - START */
+.languages-container {
+  border-bottom: 1px solid var(--gray-darker);
+  padding-bottom: 20px;
+}
+
+.language-one-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* ASIDE - LANGUAGE - END */
+
+/* MAIN - PROJECTS - START */
+/* MAIN - PROJECTS - END */
+
+/* MAIN - EXPERIENCE - START */
+.experience-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-subtitle {
+  font-weight: normal;
+}
+
+.experience-one-container {
+  display: flex;
+  gap: 20px;
+}
+
+.experience-text {
+  width: 530px;
+}
+/* MAIN - EXPERIENCE - END */
+
+/* MAIN - SKILLS - START */
+.skills-container {
+  margin-bottom: 20px;
+}
+
+.skill-one-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 3;
+  background-color: var(--gray-darker);
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.skills-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.skills-image {
+  width: 64px;
+  height: 64px;
+}
+
+/* MAIN - SKILLS - END */
+
+/* MAIN - EDUCATION - START */
+.education-one-container {
+  background-color: var(--gray-darker);
+  padding: 10px 16px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.education-section-title {
+  margin-bottom: 6px;
+}
+
+.education-image {
+  margin-right: 20px;
+}
+
+.experience-company {
+  width: 200px;
+}
+
+/* MAIN - EDUCATION - END */
